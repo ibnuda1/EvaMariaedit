@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('Latest Movies', url='https://t.me/joinchat/IYdEHR3_ZCo3ZWZl')
+                InlineKeyboardButton('Latest Movies', url='https://t.me/+IYdEHR3_ZCo3ZWZl')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -39,7 +39,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Chats ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ]]
-            InlineKeyboardButton('Latest Movies', url='https://t.me/joinchat/IYdEHR3_ZCo3ZWZl')
+            InlineKeyboardButton('Latest Movies', url='https://t.me/+IYdEHR3_ZCo3ZWZl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
